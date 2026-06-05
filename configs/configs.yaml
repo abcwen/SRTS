@@ -11,4 +11,4 @@ data:
 
 stitching:
   top_k: 100
-  consistency_threshold: auto
+  consistency_threshold: 2.0
