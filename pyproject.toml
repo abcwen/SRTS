@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "srts"
+version = "0.1.0"
+description = "PyTorch reproduction of SRTS: Semantic Representations for Trajectory Stitching in Offline RL."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["srts*"]

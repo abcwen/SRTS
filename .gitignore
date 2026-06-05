@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.idea/
+.venv/
+data/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.npz
