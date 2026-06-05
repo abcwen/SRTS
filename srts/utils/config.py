@@ -12,7 +12,6 @@ def load_config(path: str | Path) -> dict[str, Any]:
 
 
 def merge_overrides(config: dict[str, Any], overrides: list[str]) -> dict[str, Any]:
-    """Apply CLI overrides such as data.H=8 or gctsm.epochs=10."""
     for item in overrides:
         key, value = item.split("=", 1)
         cursor = config
