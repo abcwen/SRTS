@@ -1,8 +1,6 @@
-# Runtime and reproducibility
 seed: 42
 device: cuda
 
-# Dataset and trajectory-window sensitivity parameters
 data:
   dataset: halfcheetah-medium-v2
   npz_path:
@@ -11,7 +9,6 @@ data:
   P: 10
   bridge_horizon: 10
 
-# Hierarchical compatibility and filtering sensitivity parameters
 stitching:
   top_k: 100
   consistency_threshold: auto
