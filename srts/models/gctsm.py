@@ -5,7 +5,7 @@ from torch import nn
 
 
 class GCTSM(nn.Module):
-    """Goal-conditioned trajectory semantic model from the SRTS paper."""
+    """Goal-conditioned trajectory semantic model."""
 
     def __init__(
         self,
